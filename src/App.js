@@ -1,9 +1,16 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+// routes
+import Landing from './pages/landing/Landing'
+import NoPage from './pages/NoPage'
 
 function App() {
   return (
     <div className="App">
-      <h1>PORTFOLIO WEBSITE</h1>
+      <Routes>
+        <Route path='/' element={<Landing />}/>
+        <Route path='*' element={<NoPage />}/>
+      </Routes>
     </div>
   );
 }
