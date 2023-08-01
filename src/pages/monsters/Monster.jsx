@@ -4,6 +4,10 @@ import './monsterStyle.css'
 import MainLayout from '../../layout/MainLayout'
 // context
 import { AppContext } from '../../context/app_context'
+// array
+import monsters from '../../monster_images/monsterIcons'
+
+console.log("monster picss",monsters)
 
 // axios
 // import axios from 'axios'
@@ -64,6 +68,16 @@ function Monster() {
                     )}
                 </div>
                 {/* --------------USE CONTEXT------------------ */}
+                {/* --------------images array------------------ */}
+                    {monsters.map((img, i) => {
+                        console.log('one pic', img)
+                        return (
+                            <img key={i} src={img.pic} alt="pic" className='monsterPic'/>
+                        )
+                    })}
+
+
+                {/* --------------images array------------------ */}
             </div>
         </MainLayout>
     )

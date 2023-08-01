@@ -233,3 +233,5 @@ const monsters = [
         pic: 'https://static.wikia.nocookie.net/monsterhunter/images/9/90/MHWI-Zinogre_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724012701'
     }
 ]
+
+module.exports = monsters
