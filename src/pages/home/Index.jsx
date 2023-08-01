@@ -5,7 +5,7 @@ import MainLayout from '../../layout/MainLayout'
 import HomePage from '../../components/HomePage'
 import carousel from '../../monster_images/carouselConsole'
 
-function Home() {
+function Index() {
   return (
     <MainLayout>
             {/* carousel */}
@@ -31,4 +31,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Index
