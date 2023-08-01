@@ -7,8 +7,6 @@ const AppContextProvider = (props) => {
     // state
     const [url, setUrl] = useState(null);
 
-
-
     // old url
     // https://amiiboapi.com/api/amiibo
     

@@ -55,17 +55,16 @@ function Monster() {
                         url.map((monster,i) => {
                             return (
                                 <div key={i}>
-                                    {monster.name}
+                                    <p>{monster.id}.--{monster.name}</p>
                                 </div>
                             )
-                        })
+                        })                        
                     ): (
                         <h2>LOADING ...</h2>
                     )}
                 </div>
                 {/* --------------USE CONTEXT------------------ */}
             </div>
-
         </MainLayout>
     )
 }
