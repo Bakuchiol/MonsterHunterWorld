@@ -2,10 +2,16 @@ import React from 'react'
 // css
 import './home.css'
 import MainLayout from '../../layout/MainLayout'
+import HomePage from '../../components/HomePage'
+import carousel from '../../monster_images/carouselConsole'
 
 function Home() {
   return (
     <MainLayout>
+            {/* carousel */}
+      <HomePage images={carousel}/>
+
+            {/* carousel */}
       <div id='homePage'>
       <h1>HOMEPAGE</h1>
       <p>one page parallax?(portfolio)</p>

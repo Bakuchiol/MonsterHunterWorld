@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Home from '../pages/home/Home'
 
-function HomePAge() {
+function HomePage() {
   return (
     <div id='homePage'>
         <Home />
-        <h4>ONE PAGE PARALLAX</h4>
     </div>
   )
 }
 
-export default HomePAge
+export default HomePage

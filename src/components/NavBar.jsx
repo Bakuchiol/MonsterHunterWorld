@@ -8,13 +8,18 @@ function NavBar() {
   return (
     <div id='navBar'>
       <div className='navLinks'>
-        <Link to='/home'><img src={logo} alt="Monster Hunter" className='navLogo'/></Link>
+        <div>
+          <Link to='/home'><img src={logo} alt="Monster Hunter" className='navLogo'/></Link>
+          <h6>MONSTER WIKI</h6>
+        </div>
         <ul className='navUl'>
           <li><Link to='/monsters'>Monsters</Link></li>
-          <li><Link>Weapons</Link></li>
-          <li><Link>Contact</Link></li>
+          <li>*change BG color*</li>
         </ul>
-        <img src="http://www.monsterhunterworld.com/sp/images/common/bg_gNavi.png" alt="" />
+        <div className='navFlag'>
+          <p className='navFlagTitle'>MENU</p>
+          <img src="http://www.monsterhunterworld.com/sp/images/common/bg_gNavi.png" alt="menuFlag" className='menuFlag'/>
+        </div>
       </div>
       <hr />
       
