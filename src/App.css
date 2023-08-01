@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(245, 240, 230);
-  background-image: url('/public/images/noise.png');
-  background-position: 50% 50%;
-  background-size: 500px;
-  background-attachment: fixed;
+  background-image: url('https://www.monsterhunterworld.com/images/common/bg_page.jpg');
+  background-position: center;
+  background-attachment:scroll;
 }
 
 .App {
@@ -18,7 +16,12 @@ body {
 /* NAVBAR */
 #navBar {
   border:solid fuchsia;
+  background-color: rgb(185, 155, 115);
+  /* background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png'); */
   height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 .navLinks{
   border: solid crimson;
@@ -44,7 +47,21 @@ a {
 
 /* FOOTER */
 #footer {
+  background-color: antiquewhite;
   position: inherit;
   bottom: 0;
   padding: 30px 0;
+}
+.footerUl {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+li > a:hover {
+  color: rgb(39, 39, 180);
+}
+li > span {
+  font-style: italic;
+  font-weight: 700;
 }

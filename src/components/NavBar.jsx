@@ -14,6 +14,7 @@ function NavBar() {
           <li><Link>Weapons</Link></li>
           <li><Link>Contact</Link></li>
         </ul>
+        <img src="http://www.monsterhunterworld.com/sp/images/common/bg_gNavi.png" alt="" />
       </div>
       <hr />
       

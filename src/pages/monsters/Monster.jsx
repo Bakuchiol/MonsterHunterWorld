@@ -43,24 +43,29 @@ function Monster() {
     return (
         <MainLayout>
             <div id='monsterWrap'>
-                <h1>MONSTER PAGE</h1>
+                {/* <h1>MONSTER PAGE</h1>
                 <h4>TO DOS:</h4>
                 <p>1. map info here</p>
                 <p>2. *TRY* to link imgs</p>
                 <p>3. useEffect on nav and foot</p>
-                <hr />
+                <hr /> */}
                 {/* -----------------REGULAR AXIOS------------------------ */}
                 {/* <div>
                     <MonsterPage monsters={monsters} />
                 </div> */}
                 {/* -----------------REGULAR AXIOS------------------------ */}
                 {/* --------------USE CONTEXT---------------- */}
+                <div id='flexBox'>
+
+                <div className='monsterNamesBox'>
                 <div className='monsters'>
                     {url ? (
                         url.map((monster,i) => {
                             return (
                                 <div key={i}>
-                                    <p>{monster.id}.--{monster.name}</p>
+                                    <div className='monsterName'>{monster.id}.--
+                                        <p>{monster.name}</p>
+                                    </div>
                                 </div>
                             )
                         })                        
@@ -68,17 +73,25 @@ function Monster() {
                         <h2>LOADING ...</h2>
                     )}
                 </div>
+
+                </div>
+                
                 {/* --------------USE CONTEXT------------------ */}
                 {/* --------------images array------------------ */}
+                    <div className='monsterImgBox'>
                     {monsters.map((img, i) => {
                         console.log('one pic', img)
                         return (
-                            <div>
+                            <div className='monsterImg'>
                                 {img.id}
                                 <img key={i} src={img.pic} alt="pic" className='monsterPic'/>
                             </div>
                         )
                     })}
+                    </div>
+
+                </div>
+                    
                 {/* --------------images array------------------ */}
             </div>
         </MainLayout>

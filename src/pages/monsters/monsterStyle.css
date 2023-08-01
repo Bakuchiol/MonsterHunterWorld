@@ -4,10 +4,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+#flexBox {
+    border: solid skyblue;
+    padding: 50px 0 50px 95px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
 #monsterWrap {
     background-color: black;
     color: white;
     border: solid lime;
+    /*  */
+
+}
+/* monster list */
+.monsterNamesBox {
+    position: absolute;
+    margin-top: 95px;
+}
+.monsterName {
+    border: .75px solid red;
+    width: 250px;
+    height: 180px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: black
+}
+.monsterName:hover{
+    color: white;
+}
+.monsters {
+    display: flex;
+    flex-wrap: wrap;
+}
+.monsterImgBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+.monsterImg {
+    /* border: solid blueviolet; */
+    width: 250px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .monsterPic {
     width: 100px;

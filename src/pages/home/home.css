@@ -3,14 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: rgb(245, 240, 230);
-    background-image: url('/public/images/noise.png');
-    background-position: 50% 50%;
-    background-size: 220px;
-    background-attachment: fixed;
-}
+
 #homePage {
     border: solid blue;
+    margin-top: 90px;
     height: 80vh;
+}
+
+.testing {
+    background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png');
+    height: 100px;
 }

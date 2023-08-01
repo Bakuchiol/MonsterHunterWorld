@@ -18,6 +18,8 @@ function Home() {
       <p>7. history? from series: monster hunter <br /> expansion: MH world-iceborn</p>
       <p>8. styling - parallax/cut per section/component?</p>
       <p>9. history?</p>
+      <img src="http://www.monsterhunterworld.com/sp/images/common/border_section.png" alt="" />
+      <div className='testing'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea, eveniet nemo sit molestiae eius?</div>
     </div>
     </MainLayout>
   )
