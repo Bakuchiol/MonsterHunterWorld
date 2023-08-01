@@ -1,0 +1,12 @@
+/* monster page styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#monsterWrap {
+    background-color: black;
+    color: white;
+    border: solid lime;
+    height: 90vh;
+}

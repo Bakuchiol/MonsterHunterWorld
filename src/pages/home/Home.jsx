@@ -13,6 +13,7 @@ function Home() {
       <p>2. main top - banner (introduction)</p>
       <p>3. PROJECTS</p>
       <p>4. footer</p>
+      <p>5. carousel</p>
     </div>
     </MainLayout>
   )

@@ -9,8 +9,8 @@ function NavBar() {
       <div className='navLinks'>
         <h1>NAME HERE???</h1>
         <ul className='navUl'>
-          <li><Link>Projects</Link></li>
-          <li><Link>About</Link></li>
+          <li><Link to='/monsters'>Monsters</Link></li>
+          <li><Link>Weapons</Link></li>
           <li><Link>Contact</Link></li>
         </ul>
       </div>
