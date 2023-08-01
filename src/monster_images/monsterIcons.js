@@ -5,7 +5,7 @@ const monsters = [
     },
     {
         id: '2',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/3/39/MHW-Jagras_Icon.png/revision/latest?cb=20210724005620'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-jagras_icon2.png'
     },
     {
         id: '3',
@@ -29,11 +29,11 @@ const monsters = [
     },
     {
         id: '8',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/d/dd/MHW-Noios_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010253'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-noios_icon2.png'
     },
     {
         id: '9',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterworld_gamepedia_en/images/c/cc/MHW_Gajau_Icon.png/revision/latest/scale-to-width-down/250?cb=20190826171455'
+        pic: 'https://i.pinimg.com/originals/e4/d5/62/e4d5626b78c624f24d23a9d8cf234eb8.png'
     },
     {
         id: '10',
@@ -41,15 +41,15 @@ const monsters = [
     },
     {
         id: '11',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/3/3d/MHW-Raphinos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010437'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-raphinos_icon2.png'
     },
     {
         id: '12',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/0/01/MHW-Shamos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010518'
+        pic: 'https://i.pinimg.com/originals/3f/5c/86/3f5c8680d0a4f0fb02bd3a129b7cfaf3.png'
     },
     {
         id: '13',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/1/11/MHW-Girros_Icon.png/revision/latest?cb=20210724005319'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-great_girros_icon2.png'
     },
     {
         id: '14',
@@ -57,19 +57,19 @@ const monsters = [
     },
     {
         id: '15',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/9/9b/MHW-Gastodon_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724005241'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-gastodon_icon.png'
     },
     {
         id: '16',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/7/7a/MHW-Barnos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724004533'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-barnos_icon2.png'
     },
     {
         id: '17',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterworld_gamepedia_en/images/9/98/MHW_Great_Jagras_Icon.png/revision/latest/scale-to-width-down/250?cb=20190826171459'
+        pic: 'https://i.pinimg.com/originals/72/51/b6/7251b65f3934e3cae0348eadc302fb65.png'
     },
     {
         id: '18',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/c/ca/MHW-Kulu-Ya-Ku_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724005910'
+        pic: 'https://i.pinimg.com/originals/6b/17/8e/6b178ed93f7e2131b756374ebac7f7d3.png'
     },
     {
         id: '19',
@@ -77,112 +77,112 @@ const monsters = [
     },
     {
         id: '20',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/0/0a/MHW-Barroth_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724004639'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/MHW-Barroth_Icon.png'
     },
     {
         id: '21',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/e/eb/MHW-Icono_Jyuratodus.png/revision/latest?cb=20210823122234&path-prefix=es'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-jyuratodus_icon.png'
     },
     {
         id: '22',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/3/30/MHW-Icono_Tobi-Kadachi.png/revision/latest?cb=20210823124001&path-prefix=es'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-tobi-kadachi_icon.png'
     },
     {
         id: '23',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/9/9e/MHW-Icono_Anjanath.png/revision/latest?cb=20210823120620&path-prefix=es'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-anjanath_icon.png'
     },
     {
         id: '24',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/8/8e/MHW-Azure_Rathalos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210723233615'
+        pic: 'https://i.pinimg.com/originals/a7/8e/29/a78e292c85ac9f72c9ae41e88845c824.png'
     },
     {
         id: '25',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/f/fd/MHWI-Seething_Bazelgeuse_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724012341'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-seething_bazelgeuse_icon.png'
     },
     {
         id: '26',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/d/d8/MHW-Behemoth_Icon.png/revision/latest?cb=20210724004805'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-behemoth_icon.png'
     },
     {
         id: '27',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/4/49/MHWI-Savage_Deviljho_Icon.png/revision/latest?cb=20210724012302'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-savage_deviljho_icon.png'
     },
     {
         id: '28',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/4/47/MHW-Diablos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210723233759'
+        pic: 'https://i.pinimg.com/originals/3d/f7/f9/3df7f9d65722458ecfb6c9f6be3f5d55.png'
     },
     {
         id: '29',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/d/dc/MHW-Black_Diablos_Icon.png/revision/latest/scale-to-width-down/250?cb=20210723233716'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-black_diablos_icon.png'
     },
     {
         id: '30',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterworld_gamepedia_en/images/4/4c/MHW_Dodogama_Icon.png/revision/latest/scale-to-width-down/250?cb=20190826171453'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-dodogama_icon.png'
     },
     {
         id: '31',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/e/e1/MHW-Great_Girros_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724005358'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-great_girros_icon2.png'
     },
     {
         id: '32',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/5/59/MHW-Icono_Kirin.png/revision/latest?cb=20210823124926&path-prefix=es'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-kirin_icon.png'
     },
     {
         id: '33',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/e/ef/MHW-Kulve_Taroth_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724005957'
+        pic: 'https://i.pinimg.com/originals/da/75/3e/da753e78b21052e5c1c14a4b0f6ca246.png'
     },
     {
         id: '34',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/e/e2/MHW-Kushala_Daora_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724000948'
+        pic: 'https://i.pinimg.com/originals/f8/c8/1c/f8c81c496f9fbdba7e467d965b4ecf57.png'
     },
     {
         id: '35',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/e/ed/MHW-Icono_Lavasioth.png/revision/latest?cb=20210823122539&path-prefix=es'
+        pic: 'https://i.pinimg.com/originals/e8/cf/11/e8cf11196a07e5f31f1dc08cc4e048af.png'
     },
     {
         id: '36',
-        pic: 'https://static.wikia.nocookie.net/monsterhunterespanol/images/2/27/MHW-Icono_Legiana.png/revision/latest?cb=20210823122620&path-prefix=es'
+        pic: 'https://i.pinimg.com/originals/7f/48/2f/7f482fa147f0635483785582a936a284.png'
     },
     {
         id: '37',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/e/e1/MHW-Lunastra_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724001103'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-lunastra_icon2.png'
     },
     {
         id: '38',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/3/35/MHWI-Ruiner_Nergigante_Icon.png/revision/latest?cb=20210724012223'
+        pic: 'https://i.pinimg.com/originals/3c/e8/c8/3ce8c8f2720cd9588efc01d62a9f5ce4.png'
     },
     {
         id: '39',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/b/b6/MHWI-Ebony_Odogaron_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724011851'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhw-odogaron_icon.png'
     },
     {
         id: '40',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/0/04/MHW-Paolumu_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010333'
+        pic: 'https://i.pinimg.com/originals/82/b6/00/82b600ce1f899385e1a8097227dbae88.png'
     },
     {
         id: '41',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/2/23/MHW-Radobaan_Icon.png/revision/latest?cb=20210724010413'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-radobaan_icon.png'
     },
     {
         id: '42',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/8/8c/MHW-Rathalos_Icon.png/revision/latest?cb=20210724001238'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-rathalos_icon.png'
     },
     {
         id: '43',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/3/32/MHW-Rathian_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724202821'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-rathian_icon.png'
     },
     {
         id: '44',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/1/15/MHW-Pink_Rathian_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724001151'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-pink_rathian_icon2.png'
     },
     {
         id: '45',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/d/d7/MHW-Teostra_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010546'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-teostra_icon.png'
     },
     // no 46 or 47
     {
         id: '48',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/0/01/MHW-Tzitzi-Ya-Ku_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010628'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-tzitzi-ya-ku_icon2.png'
     },
     {
         id: '49',
@@ -190,15 +190,15 @@ const monsters = [
     },
     {
         id: '50',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/f/fb/MHW-Vaal_Hazak_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010833'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-vaal_hazak_icon.png'
     },
     {
         id: '51',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/e/e3/MHW-Xeno%27jiiva_Icon.png/revision/latest?cb=20210724010915'
+        pic: "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-xeno'jiiva_icon.png"
     },
     {
         id: '52',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/1/16/MHW-Zorah_Magdaros_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724010935'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhw-zorah_magdaros_icon.png'
     },
     {
         id: '53',
@@ -210,11 +210,11 @@ const monsters = [
     },
     {
         id: '55',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/f/fa/MHWI-Safi%27jiiva_Icon.png/revision/latest?cb=20210724012238'
+        pic: "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-safi'jiiva_icon.png"
     },
     {
         id: '56',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/f/fa/MHWI-Safi%27jiiva_Icon.png/revision/latest?cb=20210724012238'
+        pic: 'https://pbs.twimg.com/media/EBOui09W4AEhULw.jpg'
     },
     {
         id: '57',
@@ -222,15 +222,15 @@ const monsters = [
     },
     {
         id: '58',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/0/09/MHWI-Viper_Tobi-Kadachi_Icon.png/revision/latest?cb=20210724012553'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhwi-viper_tobi-kadachi_icon.png'
     },
     {
         id: '59',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/2/2f/MHWI-Namielle_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724012034'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/gthumbnails/mhwi-namielle_icon.png'
     },
     {
         id: '60',
-        pic: 'https://static.wikia.nocookie.net/monsterhunter/images/9/90/MHWI-Zinogre_Icon.png/revision/latest/scale-to-width-down/250?cb=20210724012701'
+        pic: 'https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/mhwi-zinogre_icon.png'
     }
 ]
 

@@ -72,7 +72,10 @@ function Monster() {
                     {monsters.map((img, i) => {
                         console.log('one pic', img)
                         return (
-                            <img key={i} src={img.pic} alt="pic" className='monsterPic'/>
+                            <div>
+                                {img.id}
+                                <img key={i} src={img.pic} alt="pic" className='monsterPic'/>
+                            </div>
                         )
                     })}
 
