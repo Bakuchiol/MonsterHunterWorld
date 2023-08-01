@@ -19,6 +19,13 @@ function Landing() {
         <p style={{color: "lime"}}>TO DO: STYLE BUTTON!</p>
         <p style={{color: "lime"}}>TO DO: add mini footer <br /> disclaimer: this is a fan made website
         <br /> link to official website, api used!</p>
+        <hr />
+        <ul className='footerUl'>
+        <li><a href='https://mhw-db.com'>Monster Hunter World API</a></li>
+        <li><a href='https://github.com/Bakuchiol/MonsterHunterWorld'>Link to Repository</a></li>
+        </ul>
+        <p>All trademarks referenced herein are the properties of their respective owners.</p>
+        <p>©CAPCOM CO., LTD. 2018 ALL RIGHTS RESERVED.</p>
       </div>
     </div>
       
