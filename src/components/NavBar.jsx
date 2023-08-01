@@ -1,13 +1,14 @@
 import React from 'react'
 // link
 import { Link } from 'react-router-dom'
-
+// logo
+import logo from '../src_images/mh_logo.png'
 
 function NavBar() {
   return (
     <div id='navBar'>
       <div className='navLinks'>
-        <h1>NAME HERE???</h1>
+        <img src={logo} alt="Monster Hunter" className='navLogo'/>
         <ul className='navUl'>
           <li><Link to='/monsters'>Monsters</Link></li>
           <li><Link>Weapons</Link></li>
