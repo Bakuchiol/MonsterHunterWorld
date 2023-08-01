@@ -48,6 +48,7 @@ function Monster() {
                 <p>1. map info here</p>
                 <p>2. *TRY* to link imgs</p>
                 <p>3. useEffect on nav and foot</p>
+                <hr />
                 {/* -----------------REGULAR AXIOS------------------------ */}
                 {/* <div>
                     <MonsterPage monsters={monsters} />
@@ -78,8 +79,6 @@ function Monster() {
                             </div>
                         )
                     })}
-
-
                 {/* --------------images array------------------ */}
             </div>
         </MainLayout>

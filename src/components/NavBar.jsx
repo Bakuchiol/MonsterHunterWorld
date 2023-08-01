@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div id='navBar'>
       <div className='navLinks'>
-        <img src={logo} alt="Monster Hunter" className='navLogo'/>
+        <Link to='/home'><img src={logo} alt="Monster Hunter" className='navLogo'/></Link>
         <ul className='navUl'>
           <li><Link to='/monsters'>Monsters</Link></li>
           <li><Link>Weapons</Link></li>
