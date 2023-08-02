@@ -11,7 +11,7 @@ import { useLocation } from 'react-router-dom'
 
 function MonsterInfo(props) {
   // state
-  const [monsterInfo, setMonsterInfo] = useState({})
+  const [monsterInfo, setMonsterInfo] = useState()
 
   // context
   // let { getMonsterInfo } = useContext(AppContext);
@@ -47,19 +47,36 @@ function MonsterInfo(props) {
       <div id='monsterInfoWrap'>
         {/* attempt */}
         <p>?</p>
+        <p>{monsterInfo?.id}</p>
         <p>{monsterInfo?.name}</p>
         <p>{monsterInfo?.type}</p>
         <p>{monsterInfo?.species}</p>
+        <p>elements: {monsterInfo?.elements}</p>
+        <p>ailments: {monsterInfo?.ailments.map((loc) => (
+          <div>
+            <p>{loc.name}</p>
+            <p>{loc.description}</p>
+          </div>
+        ))}</p>
+        
         <p>{monsterInfo?.description}</p>
-        {/* <p>{monsterInfo?.['locations']['name']}</p> */}
-        <p>{monsterInfo?.['weaknesses'][0]['element']}</p>
-        {/* <p>WEAKNESSES:
-          <ul>
-            <li>{monsterInfo?.['weaknesses'][0]['element']}</li>
-            <li>{monsterInfo?.['weaknesses'][1]['element']}</li>
-            <li>{monsterInfo?.['weaknesses'][1]['element']}</li>
-          </ul>
-        </p> */}
+        <div>LOCATIONS
+          {monsterInfo?.locations.map((loc) => (
+            <p>{loc.name}</p>
+          ))}
+        </div>
+        <div>
+          WEAKNESSES
+          {monsterInfo?.weaknesses.map((loc) => (
+            <p>{loc.element}</p>
+          ))}
+        </div>
+        <div>
+          REWARDS
+          {monsterInfo?.rewards.map((loc) => (
+            <p>{loc.item.name}</p>
+          ))}
+        </div>
         {/* attempt */}
       {/* <p>1. monster stats? table?</p>
       <ol>

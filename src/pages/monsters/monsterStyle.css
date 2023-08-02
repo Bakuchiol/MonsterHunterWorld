@@ -60,7 +60,7 @@
 /* monster info */
 #monsterInfoWrap {
     border: solid yellow;
-    height: 200px;
+    height: 100vh;
     margin-top: 90px;
     color: white;
 }
