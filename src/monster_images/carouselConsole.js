@@ -1,34 +1,36 @@
 const carousel = [
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_overview_02.jpg',
-        desc: 'Monster Hunter World'
+        pic: 'https://glitchup.com/wp-content/uploads/2018/02/monster-hunter-world.png',
+        desc: ''
     },
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_overview_01.jpg',
+        pic: 'https://pbs.twimg.com/media/DQ0lEVZVoAA70ZX.jpg:large',
+        desc: 'Anjanath'
+    },
+    {
+        pic: 'https://media.gq.com/photos/5a6f97c2cbcadf1e4e15c497/16:9/w_2560%2Cc_limit/monster-hunter-gq.jpg',
         desc: 'Rathalos'
     },
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_ecosystem_03.jpg',
-        desc: 'Barroth and Jyuratodus'
+        pic: 'https://static1.thegamerimages.com/wordpress/wp-content/uploads/2019/05/monster-hunter-e1557324782688.jpg',
+        desc: 'Nergigante'
     },
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_hunting_01.jpg',
-        desc: 'Anjanath'
+        pic: 'https://images.prismic.io/fanatical/fc8f3a7d80d60678fa286736db277bcffb0c6b5d_ebony_odogaron04_1562748130.bmp?auto=compress,format',
+        desc: 'Odogaron'
     },
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_hunting_02.jpg',
-        desc: 'Anjanath'
+        pic: 'https://control.gamefever.co/uploads/posts/1618978424mhw-best-hammer.jpg',
+        desc: 'Glavenus and Odogaron'
     },
     {
-        pic: 'http://www.monsterhunterworld.com/sp/images/top/img_hunting_03.jpg',
-        desc: 'Mernos'
+        pic: 'https://pbs.twimg.com/media/DYPpiO7WkAYGAVJ?format=jpg&name=large',
+        desc: 'Deviljho'
     },
     {
-        pic: 'http://www.monsterhunterworld.com/us/images/xbox/img_products01.jpg',
-        desc: 'Monster Hunter for XBOX'
-    },
-    {
-        pic: 'http://www.monsterhunterworld.com/us/images/ps4/img_products01.jpg',
-        desc: 'Monster Hunter for the PS4'
+        pic: 'https://media.comicbook.com/2017/11/monsterhunterworld-9-1-1059531.jpg',
+        desc: 'Pukei-Pukei'
     }
 ]
+
+module.exports = carousel

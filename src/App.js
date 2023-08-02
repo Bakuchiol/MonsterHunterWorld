@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 // routes
 import Landing from './pages/landing/Landing'
 import NoPage from './pages/NoPage'
-// import Home from './pages/home/Home'
 import Monster from './pages/monsters/Monster';
 import Index from './pages/home/Index';
 
