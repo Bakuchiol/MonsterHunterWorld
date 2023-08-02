@@ -56,3 +56,11 @@
 .monsterPic {
     width: 100px;
 }
+/* ------------ */
+/* monster info */
+#monsterInfoWrap {
+    border: solid yellow;
+    height: 200px;
+    margin-top: 90px;
+    color: white;
+}

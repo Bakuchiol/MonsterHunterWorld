@@ -6,6 +6,7 @@ import MainLayout from '../../layout/MainLayout'
 import { AppContext } from '../../context/app_context'
 // array
 import monsters from '../../monster_images/monsterIcons'
+import { Link } from 'react-router-dom'
 
 console.log("monster picss",monsters)
 
@@ -19,6 +20,7 @@ function Monster() {
     // context
     let { fetchMonsters } = useContext(AppContext);
     let { url } = useContext(AppContext)
+
 
     // state
     // const [monsters, setMonsters] = useState([])
@@ -61,12 +63,18 @@ function Monster() {
                 <div className='monsters'>
                     {url ? (
                         url.map((monster,i) => {
+                            console.log('at monster', monster)
                             return (
-                                <div key={i}>
-                                    <div className='monsterName'>{monster.id}.--
-                                        <p>{monster.name}</p>
+                                <Link to='/monsterInfo'
+                                state={{ monster }}
+                                key={monster.id}
+                                >
+                                    <div key={i}>
+                                        <div className='monsterName'>{monster.id}.--
+                                            <p>{monster.name}</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             )
                         })                        
                     ): (
