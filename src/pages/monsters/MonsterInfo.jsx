@@ -45,48 +45,79 @@ function MonsterInfo(props) {
   return (
     <MainLayout>
       <div id='monsterInfoWrap'>
-        {/* attempt */}
-        <p>?</p>
-        <p>{monsterInfo?.id}</p>
-        <p>{monsterInfo?.name}</p>
-        <p>{monsterInfo?.type}</p>
-        <p>{monsterInfo?.species}</p>
-        <p>elements: {monsterInfo?.elements}</p>
-        <p>ailments: {monsterInfo?.ailments.map((loc) => (
-          <div>
-            <p>{loc.name}</p>
-            <p>{loc.description}</p>
+        <div className='monsterRow'>
+          <p className='monsTitle'>NAME</p>
+          <div className="monsInfo">
+            <p>{monsterInfo?.id}. <span>{monsterInfo?.name}</span></p>
           </div>
-        ))}</p>
-        
-        <p>{monsterInfo?.description}</p>
-        <div>LOCATIONS
-          {monsterInfo?.locations.map((loc) => (
-            <p>{loc.name}</p>
-          ))}
         </div>
-        <div>
-          WEAKNESSES
-          {monsterInfo?.weaknesses.map((loc) => (
-            <p>{loc.element}</p>
-          ))}
+        <div className="monsterRow">
+          <p className='monsTitle'>TYPE</p>
+          <div className="monsInfo">
+            <p>{monsterInfo?.type}</p>
+          </div>
         </div>
-        <div>
-          REWARDS
-          {monsterInfo?.rewards.map((loc) => (
-            <p>{loc.item.name}</p>
-          ))}
+        <div className="monsterRow">
+          <p className='monsTitle'>SPECIES</p>
+          <div className="monsInfo">
+            <p>{monsterInfo?.species}</p>
+          </div>
         </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>DESCRIPTION</p>
+          <div className="monsInfo">
+            <p>{monsterInfo?.description}</p>
+          </div>
+        </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>LOCATIONS</p>
+          <div className="monsInfo">
+            {monsterInfo?.locations.map((loc) => (
+                <p>{loc.name}</p>
+              ))}
+          </div>
+        </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>ELEMENTS</p>
+          <div className="monsInfo">
+            <p>elements: {monsterInfo?.elements}</p>
+          </div>
+        </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>WEAKNESSES</p>
+          <div className="monsInfo">
+              {monsterInfo?.weaknesses.map((loc) => (
+                <p>{loc.element}</p>
+              ))}
+          </div>
+        </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>AILMENTS</p>
+          <div className="monsInfo">
+            {monsterInfo?.ailments.map((loc) => (
+                <div className='infoMap'>
+                  <p>{loc.name}</p>
+                  <p>{loc.description}</p>
+                </div>
+            ))}
+          </div>
+        </div>
+        <div className="monsterRow">
+          <p className='monsTitle'>REWARDS</p>
+          <div className="monsInfo">
+            {monsterInfo?.rewards.map((loc) => (
+              <div className='infoMap'>
+                <p>{loc.item.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+
+
+          {/* infos */}
         {/* attempt */}
-      {/* <p>1. monster stats? table?</p>
-      <ol>
-        <li>name</li>
-        <li>species</li>
-        <li>desc</li>
-        <li>location</li>
-        <li>weaknesses</li>
-        <li>rewards</li>
-      </ol> */}
+        {/* attempt */}
     </div>
     </MainLayout>
   )

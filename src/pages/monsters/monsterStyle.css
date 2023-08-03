@@ -60,7 +60,42 @@
 /* monster info */
 #monsterInfoWrap {
     border: solid yellow;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 90px;
     color: white;
+}
+.monsterTable {
+    border: solid red;
+    display: flex;
+}
+.monsterRow {
+    border: solid lightblue;
+    display: flex;
+    font-size: 12px;
+    /* justify-content: space-around; */
+}
+.monsTitle {
+    border: solid lime;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monsInfo {
+    border: solid fuchsia;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.infoMap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.infoMap p {
+    border: .5px solid lightgray;
+    margin-right: 10px;
 }
