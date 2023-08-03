@@ -4,7 +4,6 @@ function TestComp() {
   return (
     <div>
         <div id='homePage'>
-        <img src="https://www.monsterhunter.com/rise/assets/images/common/monster_ic.png" alt="" />
         <div className="homeHistory">
           <h1>HOMEPAGE</h1>
           <p>one page parallax?(portfolio)</p>

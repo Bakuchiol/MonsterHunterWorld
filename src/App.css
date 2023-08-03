@@ -15,15 +15,20 @@ body {
 }
 /* -------------------------------------------------------------------------- */
 /* NAVBAR */
-#navBar {
-  border:solid fuchsia;
+.navBar {
+  /* border:solid fuchsia; */
   /* background-color: rgb(185, 155, 115); */
   /* background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png'); */
   height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 9;
+  transition: .3s ease-in;
+}
+.navBarBg {
+  /* background-color: rgb(0,0,0.9); */
+  background-color: white;
 }
 .navLinks{
   border: solid crimson;
@@ -32,7 +37,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  transition: .3s ease-in;
 }
+.navLinksBg {
+  /* background-color: rgb(0, 0, 0.9); */
+  background-color: white;
+}
+
 .navUl {
   display: flex;
   list-style: none;
@@ -51,22 +63,46 @@ h6 {
   margin: -10px 0 0 60px;
 }
 .navFlag {
-  border :solid red;
+  /* border :solid red; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+#test {
+  /* border: solid white; */
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0px 5px rgba(57, 63, 72, 0.3);
 }
 .navFlagTitle{
-  border: solid lime;
+  /* border: solid lime; */
   /* height: 100%; */
-  font-size: 20px;
-  color: white;
-  /* z-index: 99; */
+  font-size: 17px;
+  z-index: 99;
   position: absolute;
+  margin-top: 15px;
+  filter: drop-shadow(0 0 0.5rem crimson);
 }
 .menuFlag {
   z-index: -9;
 }
+
+/* attempt navscroll */
+.scroll2 {
+  #navBar {
+    /* background-color: rgb(185, 155, 115); */
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+}
+
+
+
 /* ------------------------------------------------------------------------- */
 /* CAROUSEL */
 #carousel {
