@@ -1,4 +1,8 @@
 /* monster page styling */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins:wght@100;400;600;700&display=swap');
+/* font-family: 'MedievalSharp', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +16,8 @@
     align-items: center; */
 }
 #monsterWrap {
-    background-color: black;
+      background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png');
+    /* background-color: black; */
     color: white;
     border: solid lime;
     /*  */
@@ -31,7 +36,10 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    color: black
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(160, 145, 145)
 }
 .monsterName:hover{
     color: white;
@@ -59,23 +67,21 @@
 /* ------------ */
 /* monster info */
 #monsterInfoWrap {
-    border: solid yellow;
+      background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png');
+    /* border: solid yellow; */
     /* height: 100vh; */
-    margin-top: 90px;
+    padding: 90px 0 50px 0;
     color: white;
 }
-.monsterTable {
-    border: solid red;
-    display: flex;
-}
 .monsterRow {
-    border: solid lightblue;
+    /* border: solid lightblue; */
     display: flex;
+    justify-content: center;
     font-size: 12px;
     /* justify-content: space-around; */
 }
 .monsTitle {
-    border: solid lime;
+    border: .5px solid #f5f5f5;
     width: 500px;
     height: 100px;
     display: flex;
@@ -83,7 +89,7 @@
     align-items: center;
 }
 .monsInfo {
-    border: solid fuchsia;
+    border: .5px solid #f5f5f5;
     width: 900px;
     display: flex;
     justify-content: center;
@@ -98,4 +104,10 @@
 .infoMap p {
     border: .5px solid lightgray;
     margin-right: 10px;
+    padding: 5px;
+}
+.nameID {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    font-weight: bold;
 }

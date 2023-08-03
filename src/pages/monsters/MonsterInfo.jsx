@@ -48,7 +48,7 @@ function MonsterInfo(props) {
         <div className='monsterRow'>
           <p className='monsTitle'>NAME</p>
           <div className="monsInfo">
-            <p>{monsterInfo?.id}. <span>{monsterInfo?.name}</span></p>
+            <p><span className='nameID'>{monsterInfo?.name}</span></p>
           </div>
         </div>
         <div className="monsterRow">
@@ -87,7 +87,9 @@ function MonsterInfo(props) {
           <p className='monsTitle'>WEAKNESSES</p>
           <div className="monsInfo">
               {monsterInfo?.weaknesses.map((loc) => (
-                <p>{loc.element}</p>
+                <div className='infoMap'>
+                  <p>{loc.element}</p>
+                </div>
               ))}
           </div>
         </div>
