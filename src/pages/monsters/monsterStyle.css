@@ -29,7 +29,7 @@
     margin-top: 95px;
 }
 .monsterName {
-    border: .75px solid red;
+    border: .25px solid rgba(16, 43, 255, 0.568);
     width: 250px;
     height: 180px;
     padding-bottom: 10px;

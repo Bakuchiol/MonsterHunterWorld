@@ -70,7 +70,7 @@ function Monster() {
                                 key={monster.id}
                                 >
                                     <div key={i}>
-                                        <div className='monsterName'>{monster.id}.--
+                                        <div className='monsterName'>
                                             <p>{monster.name}</p>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ function Monster() {
                         console.log('one pic', img)
                         return (
                             <div className='monsterImg'>
-                                {img.id}
+                                {/* {img.id} */}
                                 <img key={i} src={img.pic} alt="pic" className='monsterPic'/>
                             </div>
                         )
