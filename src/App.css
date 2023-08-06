@@ -215,7 +215,6 @@ li > span {
 }
 .testingBox p{
   border: solid fuchsia;
-  height: 100px;
   color: white;
 }
 /* ------------------------------------------- */
@@ -228,9 +227,17 @@ li > span {
   justify-content: center;
 }
 .mhStory {
-  border: solid hotpink;
-  height: 300px;
-  width: 800px;
+  /* border: solid hotpink; */
+  background: rgba(0, 0, 0, 0.467);
+  height: 350px;
+  width: 1000px;
+  padding: 10px;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 25px;
+  color: #e1dcdc;
+}
+.mhStory > * {
+  margin-block-start: 20px;
 }
 .mhTitle {
   font-weight: 700;

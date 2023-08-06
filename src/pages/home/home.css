@@ -5,13 +5,12 @@
 }
 
 #homePage {
-    background-image: url();
-    border: solid blue;
-    height: 80vh;
+    /* border: solid blue; */
+    height: 60vh;
 }
 .homeHistory {
-    border: solid yellow;
-    height: 600px;
+    /* border: solid yellow; */
+    /* height: 600px; */
     color: white;
 }
 
