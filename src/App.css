@@ -156,6 +156,9 @@ h6 {
   color: #f5f5f5;
   font-size: 50px;
   padding: 50px;
+  font-family: 'MedievalSharp', cursive;
+  /* text-shadow: 2px 2px 8px #FF0000; */
+  text-shadow: 2px 2px 4px #000000;
 }
 .arrowLeft, .arrowRight {
   position: absolute;
@@ -209,4 +212,30 @@ li > span {
 #testyTest {
   border:solid lime;
   height: 300px;
+}
+.testingBox p{
+  border: solid fuchsia;
+  height: 100px;
+  color: white;
+}
+/* ------------------------------------------- */
+.border {
+  margin: 30px 0;
+}
+/* testycomp */
+.homeHistory {
+  display: flex;
+  justify-content: center;
+}
+.mhStory {
+  border: solid hotpink;
+  height: 300px;
+  width: 800px;
+}
+.mhTitle {
+  font-weight: 700;
+  color: rgb(30, 0, 255);
+}
+.mhStory span {
+  font-style: italic;
 }

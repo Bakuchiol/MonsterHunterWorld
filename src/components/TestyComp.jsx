@@ -4,7 +4,11 @@ function TestyComp() {
   return (
     <div id='testyTest'>
         <img src="http://www.monsterhunterworld.com/sp/images/common/border_section.png" alt="" />
-        <div className='testing'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea, eveniet nemo sit molestiae eius?</div>
+        <div className='testingBox'>
+          <p>
+            The world of Monster Hunter is filled with vibrant landscapes, and even more unique creatures called "monsters".
+          </p>
+        </div>
 
     </div>
   )

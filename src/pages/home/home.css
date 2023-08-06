@@ -16,6 +16,7 @@
 }
 
 .testing {
+    border:solid pink;
     background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png');
     height: 200px;
     color: #f5f5f5;
