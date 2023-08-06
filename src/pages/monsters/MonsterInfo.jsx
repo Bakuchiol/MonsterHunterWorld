@@ -45,6 +45,7 @@ function MonsterInfo(props) {
   return (
     <MainLayout>
       <div id='monsterInfoWrap'>
+      <h1>ECOLOGY</h1>
         <div className='monsterRow'>
           <p className='monsTitle'>NAME</p>
           <div className="monsInfo">
