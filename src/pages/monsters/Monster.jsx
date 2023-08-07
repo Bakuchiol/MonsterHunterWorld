@@ -45,12 +45,6 @@ function Monster() {
     return (
         <MainLayout>
             <div id='monsterWrap'>
-                {/* <h1>MONSTER PAGE</h1>
-                <h4>TO DOS:</h4>
-                <p>1. map info here</p>
-                <p>2. *TRY* to link imgs</p>
-                <p>3. useEffect on nav and foot</p>
-                <hr /> */}
                 {/* -----------------REGULAR AXIOS------------------------ */}
                 {/* <div>
                     <MonsterPage monsters={monsters} />
@@ -59,7 +53,9 @@ function Monster() {
                 {/* --------------USE CONTEXT---------------- */}
                 <div id='flexBox'>
 
+                <h1>MONSTER LIST</h1>
                 <div className='monsterNamesBox'>
+                <br />
                 <div className='monsters'>
                     {url ? (
                         url.map((monster,i) => {

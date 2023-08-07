@@ -9,11 +9,10 @@ function TestyComp() {
   return (
     <div id='testyTest'>
         <img src="http://www.monsterhunterworld.com/sp/images/common/border_section.png" alt="" />
-          <p>MONSTER HIGHLIGHT COMP</p>
           <div className="monsterWrap">
         <div className='testingBox'>
           <div className="rathianBox">
-            <img src={rathian} alt="" className='monsterImg'/>
+            <img src={rathian} alt="rathian" className='monsterImg1'/>
             <div className="rathianDesc">
               <h1>PINK RATHIAN</h1>
               <p>
@@ -21,12 +20,29 @@ function TestyComp() {
               Pink Rathians have harder scales on different body parts 
               compared to their lower ranked counterparts. They can also use their poison tipped tails 
               more skillfully, creating a greater threat for both hunters and their prey.
-                <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Pink_Rathian">-ign.com</a></sub>
               </p>
+                <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Pink_Rathian" className='sub'>-ign.com</a></sub>
             </div>
           </div>
+
+          <div className="xenoBox">
+            <div className="xenoDesc">
+              <h1>XENO'JIIVA</h1>
+              <p>
+              An Elder Dragon born of the growing stores of energy being sucked into the Elder's Recess, 
+              Xeno'jiiva is a massive translucent monster. It's newborn status will see it making mistakes 
+              often when fighting hunters, such as attacking the ground beneath it and falling into the hole created, 
+              leaving it open to attack. Though just born, its power is a world-ending threat to the New World. 
+              Take it down hunter!
+              </p>
+              <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Xeno%27jiiva"  className='sub'>-ign.com</a></sub>
+            </div>
+            <img src={xeno} alt="xeno" className='monsterImg3'/>
+          </div>
+
+
           <div className="nergiganteBox">
-            <img src={nergigante} alt="" className='monsterImg'/>
+            <img src={nergigante} alt="nergigante" className='monsterImg2'/>
             <div className="nergiganteDesc">
               <h1>NERGINANTE</h1>
               <p>
@@ -37,24 +53,10 @@ function TestyComp() {
               towards the player in its swipes and slashes. An overly aggresive monster, Nergigante will continually chase those 
               who dare to attack it.
               </p>
-              <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Nergigante_-_Weaknesses,_Tips,_Drop_Rates">-ign</a></sub>
+              <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Nergigante_-_Weaknesses,_Tips,_Drop_Rates"  className='sub'>-ign.com</a></sub>
             </div>
           </div>
-          <div className="xenoBox">
-            <img src={xeno} alt="" className='monsterImg'/>
-            <div className="xenoDesc">
-              <h1>XENO'JIIVA</h1>
-              <p>Elder Dragon</p>
-              <p>
-              An Elder Dragon born of the growing stores of energy being sucked into the Elder's Recess, 
-              Xeno'jiiva is a massive translucent monster. It's newborn status will see it making mistakes 
-              often when fighting hunters, such as attacking the ground beneath it and falling into the hole created, 
-              leaving it open to attack. Though just born, its power is a world-ending threat to the New World. 
-              Take it down hunter!
-              <sub><a href="https://www.ign.com/wikis/monster-hunter-world/Xeno%27jiiva">-ign.com</a></sub>
-              </p>
-            </div>
-          </div>
+          
           </div>
         </div>
 
