@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 #flexBox {
-    border: solid skyblue;
+    /* border: solid skyblue; */
     padding: 50px 0 50px 95px;
     /* display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
       background-image: url('http://www.monsterhunterworld.com/sp/images/common/bg_alpha_blown.png');
     /* background-color: black; */
     color: white;
-    border: solid lime;
+    /* border: solid lime; */
     /*  */
 
 }
