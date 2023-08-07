@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MonsterHunterWorld/static/css/main.150263c1.css",
+    "main.js": "/MonsterHunterWorld/static/js/main.dd98c8a3.js",
+    "static/media/Nergigante.png": "/MonsterHunterWorld/static/media/Nergigante.bd02e7e7a5b3d863afd6.png",
+    "static/media/Xeno.png": "/MonsterHunterWorld/static/media/Xeno.b345390dcf06d27e5fd1.png",
+    "static/media/Pinkrathian.png": "/MonsterHunterWorld/static/media/Pinkrathian.2d89048af394d6dc10d2.png",
+    "static/media/mh_logo.png": "/MonsterHunterWorld/static/media/mh_logo.bda286849e09ed348907.png",
+    "index.html": "/MonsterHunterWorld/index.html",
+    "main.150263c1.css.map": "/MonsterHunterWorld/static/css/main.150263c1.css.map",
+    "main.dd98c8a3.js.map": "/MonsterHunterWorld/static/js/main.dd98c8a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.150263c1.css",
+    "static/js/main.dd98c8a3.js"
+  ]
+}
